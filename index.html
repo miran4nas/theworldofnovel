@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="A better way to buy books online. Every purchase financially supports local independent bookstores.">
+    <meta name="keyword" content="books, book store, a novel, stories,The world of novels">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE WORLD OF NOVEL</title>
+    <link rel="icon" type="x-icon" href="img/iconstore.jfif">
+    <link rel="stylesheet" href="css/bookstore.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+        <div id="loading-screen1">
+            <h1>THE WORLD OF NOVEL</h1>
+            <h2>home loading</h2>
+            <div class="loader1"></div>
+        </div>
+        <div id="content1" style="display: none;">
+        </div>
+        <div>
+            <h1 class="h1home">
+                <b>THE WORLD OF NOVEL</b>
+            </h1>
+        </div>
+        <div class="bodyheader">
+            <div class="nav1">
+                <ul class="tape">
+                    <li><a href="shop.html"><span><b>SHOP</b></span></a></li>
+                    <li><a href="contact.html"><span><b>CONTACT US</b></span></a></li>
+                    <li><button id="biz"><span><b>ABOUT US</b></span></button></li>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="aboutpara">
+                                <div>
+                                    <img class="benim"
+                                        src="img/Snapinsta.app_383970484_341866298240557_7366680828999794389_n_1080.jpg">
+                                    <p><b>müh. navaf nasıroğlu</b></p>
+                                </div>
+
+                                <p class="aboutpara1"><b>World of Novels</b> Company relies on credibility and good
+                                    dealing
+                                    with customers.</p>
+                                <p class="aboutpara2">We are here to serve you and meet your needs with utmost care.</p>
+                                <p class="aboutpara3">Feel free to reach out to us for any inquiries or assistance you
+                                    may
+                                    require.</p>
+                                <p class="aboutpara4">You can contact our support team through the form provided below,
+                                    and
+                                    we will be happy to assist you at any time.
+                                </p>
+                                <p class="aboutpara5">We look forward to serving you with pride and dedication.</p>
+                                <div class="application">
+                                    <a href="https://tinyurl.com/yc7utaj5" title="go to instagram">
+                                        <img src="img/apps image/instgram.png" width="50px" height="50px"></a>
+
+                                    <a href="https://tinyurl.com/4f58veb4" title="go to fecebook">
+                                        <img src="img/apps image/facebook.png" width="50px" height="50"></a>
+
+                                    <a href="https://tinyurl.com/48tup952" title="go to WhatsApp">
+                                        <img src="img/apps image/whatsapp.png" width="50px" height="50px"></a>
+                                    <a href="mailto:nawafmnaser13@gmail.com" title="go to email">
+                                        <img src="img/apps image/email.webp" width="50px" height="50px"></a>
+                                    <a href="https://maps.app.goo.gl/1snamqrUYKdtT6wP8" title="go to maps"><img
+                                            src="img/apps image/maps.png" width="50px" height="50px"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div style="text-align: center;">
+            <video class="mainvid1" muted autoplay loop>
+                <source src="vid/mainvid1.mp4" type="video/mp4">
+            </video>
+
+        </div>
+        <div>
+            <img class="mainimg" src="img/mainimg.webp">
+        </div>
+        <div class="header2">
+            <h2>
+                THE BEST SELLERS
+            </h2>
+        </div>
+        <br>
+        <div class="best">
+
+            <div class="bestimg">
+                <a href="https://rb.gy/o7bywh" target="_blank"><img src="img/polis/p1.jpg"></a>
+                <a href="https://shorturl.at/fkw26" target="_blank"><img src="img/romantic/r1.jpg"></a>
+                <a href="https://shorturl.at/dhqzA" target="_blank"><img src="img/tarihi/t1.jpg"></a>
+                <a href="https://shorturl.at/ajEGI" target="_blank"> <img src="img/dini/d1.jpg"></a>
+            </div>
+        </div>
+        </div>
+
+        <p class="homethanks"><b>We ask you to rate our page. Your opinion is important to us, thank you...</b></p>
+
+
+        <div class="assessment">
+            <table id="ratingTable">
+                <thead>
+                    <tr>
+                        <th><b>Element</b></th>
+                        <th><b>assessment</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>the design</b></td>
+                        <td><input id="num1" type="number" min="0" max="10" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td><b>the performance</b></td>
+                        <td><input id="num2" type="number" min="0" max="10" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Ease of use</b></td>
+                        <td><input id="num3" type="number" min="0" max="10" value="0"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button class="Calculate" onclick="calculateAverage()"><b>Calculate the average</b></button>
+            <p id="average"><b>average:</b> </p>
+        </div>
+
+        <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><i class="gg-arrow-up-o"></i></button>
+
+
+
+    </main>
+
+    <footer class="focon">
+        <div class="licensing">
+            <br>
+            <p class="fo1">© 2024 <b> THE WORLD OF NOVEL</b> Currency Exchange Rate Website.</p>
+            <p class="fo2">All rights reserved. The content available on this website is protected by copyright and
+                intellectual
+                property laws.</p>
+            <p class="fo3">
+                It is prohibited to copy, distribute, transfer, store, use, modify, or reproduce any part of this
+                website without
+                prior written permission from the Musketeeki website administration.</p><br>
+        </div>
+    </footer>
+
+    <script src="js/home.js" defer></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/bookstore.js"></script>
+
+</body>
+
+</html>
